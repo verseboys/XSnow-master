@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_net"
+            android:icon="@android:drawable/star_big_on"
+            android:title="@string/menu_net"/>
+        <item
+            android:id="@+id/menu_down"
+            android:icon="@android:drawable/star_big_on"
+            android:title="@string/menu_down"/>
+        <item
+            android:id="@+id/menu_image_loader"
+            android:icon="@android:drawable/star_big_on"
+            android:title="@string/menu_image_loader"/>
+        <item
+            android:id="@+id/menu_status_view"
+            android:icon="@android:drawable/star_big_on"
+            android:title="@string/menu_status_view"/>
+        <item
+            android:id="@+id/menu_other"
+            android:icon="@android:drawable/star_big_on"
+            android:title="@string/menu_other"/>
+    </group>
+
+</menu>
